@@ -26,7 +26,7 @@ BookStoreServer.use(express.json())
 BookStoreServer.use(router)
 
 // add image to server
-BookStoreServer.use("/imageUploads", express.static("./imageUploads"))
+BookStoreServer.use("/imageUploads", express.static("imageUploads"))
 
 // 3. Port
 const PORT = 3000
